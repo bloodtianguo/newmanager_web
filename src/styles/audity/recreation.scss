@@ -1,0 +1,57 @@
+.contanier{
+    padding: 10px 20px 20px 20px;
+    .head{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        min-width: 1500px;
+        &>div{
+            margin: 10px;
+            &>span{
+                font-weight: 700;
+                font-size: 14px;
+                color: #606266;
+            }
+        }
+        .el-select{
+            width: 150px;
+        }
+        .picker-time{
+            width: 260px;
+        }
+        .search-value{
+            width: 175px;
+        }
+        .export_main{
+            display: none;
+            
+        }
+    }
+    .el-input{
+        display: inline-block;
+        width: auto;
+    }
+    .table{
+        ::v-deep.t-cell{
+            text-align: center;
+        }
+        .el-btn-mini{
+            padding: 4px;
+        }
+    }
+    .mark{
+        ::v-deep.el-dialog__header span{
+            display: inline-block;
+            width: 400px;
+            overflow: hidden;
+        }
+        video{
+            display: block;
+            width: 900px;
+            height: 500px;
+            margin: 0 auto;
+        }
+    }
+}

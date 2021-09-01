@@ -1,0 +1,105 @@
+.el-submenu__icon-arrow{
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+.upload-container {
+  border-radius: 5px !important;
+  overflow: hidden;
+  .el-upload {
+    width: 100%;
+    .el-upload-dragger {
+      width: 178px;
+      height: 200px;
+    }
+  }
+}
+
+.el-dropdown-menu {
+  a {
+    display: block;
+  }
+}
+
+.el-range-separator {
+  box-sizing: content-box;
+}
+// 翻页
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  color: #fff;
+}
+//表格边框样式修改
+.el-table td,
+.el-table th.is-leaf {
+  border-bottom: 1px solid rgba(175, 173, 173, 0.658);
+}
+
+.el-table--border th,
+.el-table--border th.gutter:last-of-type {
+  border-bottom: 1px solid rgba(175, 173, 173, 0.658);
+}
+
+.el-table--border td,
+.el-table--border th {
+  border-right: 1px solid rgba(175, 173, 173, 0.658);
+}
+// 表格hover效果
+.el-table--enable-row-hover .el-table__body tr:hover>td{
+  background-color: #e0e0e0 !important;
+  }
+//表格自定义样式颜色
+.el-table .warning-row {
+  background: #e8f1f0;
+}
+.el-table .success-row {
+  background: #fafafa;
+}
+.el-table .tableHeader {
+  background: #808080;
+}
+//翻页定位
+#paging {
+  margin-top: 20px;
+}
+.el-checkbox__inner {
+  transform: scale(1.5)
+}
+.el-table{
+  border: 1px solid rgba(175, 173, 173, 0.658);
+}
+// from样式
+#search_box .el-form-item__label{
+  padding: 0 !important;
+}
+#search_box .el-button {
+  margin: 0 10px 0 0 !important;
+}
+#search_box .el-select {
+  margin-left: 10px !important;
+}
+// 弹窗头部颜色
+.el-dialog__header{
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #e6e6e6;
+}
